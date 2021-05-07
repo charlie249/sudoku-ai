@@ -9,7 +9,6 @@ public boolean solve (Array board) {
         return true;
     }
     
-    
     for (int i = 1; i < 10; i++) {
         allowedPossibilities = getCellsWithAllowedPossibilies(i, board)
         

@@ -5,6 +5,7 @@ Puzzle 2 		Simple 			YES
 Puzzle 3 		Easy 			n			YES 
 Puzzle 4 		Difficult 		n			YES 
 
+
 puzzle 1: Medium
 0 0 0   4 0 0   0 5 0   
 4 0 0   9 0 0   0 0 0   
@@ -30,7 +31,6 @@ puzzle 1 input:
 4,0,1,5,0,0,9,0,0
 
 
-
 puzzle 2: Simple 
 0 0 4 	0 6 0	9 0 0 
 0 0 0	2 0 9	0 0 0
@@ -54,8 +54,6 @@ puzzle 2 input:
 8,0,5,0,0,0,0,0,2
 0,1,0,4,0,8,0,5,0
 3,0,6,0,0,0,8,0,0
-
-
 
 
 Puzzle 3:
@@ -96,7 +94,6 @@ puzzle 3 input:
 0,9,0,0,0,7,1,0,0
 
 
-
 puzzle 4: difficult: 
 7 3 0	0 2 8	0 0 0
 8 0 0	0 0 0	0 0 9
@@ -109,7 +106,6 @@ puzzle 4: difficult:
 0 0 0	4 0 0	9 0 0
 6 9 0	0 0 0	0 0 4
 0 0 0	1 9 0	0 5 6
-
 
 puzzle 4 solution:
 7 3 5	9 2 8	6 4 1
@@ -134,13 +130,3 @@ Puzzle 4 input:
 0,0,0,6,9,0,0,0,0
 4,0,0,0,0,0,1,9,0
 9,0,0,0,0,4,0,5,6
-
-
-
-
-
-
-
-
-
-
