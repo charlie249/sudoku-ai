@@ -5,7 +5,6 @@ This is a Python project that solves Sudoku puzzles using topics in Artificial I
 When entering a Sudoku puzzle, be sure to enter **each subgrid as a row in the input file** and enter empty cells with `0`.
 For example, if this is the grid:
 
-```
 0 0 0   4 0 0   0 5 0   
 4 0 0   9 0 0   0 0 0   
 3 0 2   8 0 0   0 0 0   
