@@ -42,7 +42,7 @@ To run the code you type this command into your command line interface:
 
 I would recomend running this in the code editor Visual Studio Code (VSCode) as this comes with an integrated terminal that you can use to run the software. But equally feel free to use any code editor you feel comfortable with.
 
-At first the program will prompt you to hit `ENTER` to get it started. The it will ask you to enter either `1` to use AI or `2` to use Brute force. 
+At first the program will prompt you to hit `ENTER` to see a preview of the puzzle, it will then ask you to hit `ENTER` again when you want to start the program.
 
 The program outputs every step it takes along the way, if you want to see what the programs actually doing. For example:
 
