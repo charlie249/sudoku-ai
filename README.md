@@ -1,5 +1,5 @@
 # SudokuAI
-A Python project to solve Sudoku puzzles using topics in Artificial Intelligence. 
+This is a Python project that solves Sudoku puzzles using topics in Artificial Intelligence. 
 
 ## Entering a Sudoku Puzzle 
 When entering a Sudoku puzzle, be sure to enter **each subgrid as a row in the input file** and enter empty cells with `0`.
@@ -32,20 +32,21 @@ Then the input file would look like:
 4,0,1,5,0,0,9,0,0
 ```
 
-The input file is `input_sudoku_puzzle.txt` in the root of the repo. 
+The input file is `input_sudoku_puzzle.txt` in the root of the file.
 
-See more examples of this in [formatted_soduku_puzzle.txt](formatted_soduku_puzzle.txt) in the root of this repo
+See more examples of this in [formatted_soduku_puzzle.txt](formatted_soduku_puzzle.txt) in the root of this file.
 
 ## Running the Project 
-Run this project using a Python 2.x interpreter. 
-Make sure the desired grid is entered in `input_sudoku_puzzle.txt` in the format mentioned above and run the code: 
-```
+You run this project using a Python 2.x interpreter. 
+Make sure the grid you want is entered in `input_sudoku_puzzle.txt` in the same format as mentioned above and run the code.
+
+To run the code you use this command: 
 $ python2 SudokuAILoops.py
 ```
 
-The program will first prompt you to hit `ENTER` to get started.  It will then prompt you to enter either `1` or `2` to use AI or Brute force respectively. 
+The program will first prompt you to hit `ENTER` to get started. It will then prompt you to enter either `1` to use AI or `2` to use Brute force. 
 
-The program outputs every step along the way, if you want to see what's happening under the hood. For example:
+The program outputs every step along the way, if you want to see what the programs actually doing. For example:
 ```
 |3|          |2|          |4|          		|5|          |6|          |7|          		|9|          |8|          |1|          		
 |1|          |5|          |6|          		|2|          |8|          |9|          		|4|          |3|          |7|          		
@@ -63,11 +64,12 @@ The program outputs every step along the way, if you want to see what's happenin
 |0|6         |1|          |7|          		|4|          |3|          |8|          		|0|5         |0|9         |0|2         		
 |9|          |3|          |2|          		|0|7         |5|          |6|          		|8|          |0|17        |0|4         		
 ```
-The numbers between pipe symbols denote a number that has been solved.  Numbers after that are possible values for that cell (only if the number has not been solved). 
-For example, `|0|123` means 1, 2 or 3 can go in that position.  
-`|3|` means that cell's value must be 3.
+The numbers between the pipe symbols show you a number that's been solved.  Numbers that are outside the two pipes are possible values for that cell (only occurs if the number has not been solved). 
 
-## Performance Measurements 
+For example, `|0|123` would mean 1, 2 or 3 could go in that position.  
+`|3|` would mean that this cell's value must be 3.
+
+## Performance Measurements:
 At the end, the program prints a summary to allow you to see how efficient the algorithm was, like this:
 ```
 Board Solved! Performance Measure: 49
