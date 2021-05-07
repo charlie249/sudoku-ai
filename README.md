@@ -65,14 +65,15 @@ The program outputs every step it takes along the way, if you want to see what t
 The numbers between the pipe symbols show you a number that's been solved.  Numbers that are outside the two pipes are possible values for that cell (only occurs if the number has not been solved). 
 
 For example, `|0|123` would mean 1, 2 or 3 could go in that position.  
-`|3|` would mean that this cell's value must be 3.
+`|3|` would mean that this cell's value can only be 3.
 
 ## Performance Measurements:
-At the end, the program prints a summary to allow you to see how efficient the algorithm was, like this:
+At the end, the program will print a summary of the program to allow you to see how efficient and effective the algorithm was.
+For example:
 
 Board Solved! Performance Measure: 49
 Time: 55.8531284332 milliseconds
 
-The printed performance heuristic reflects how many steps the program took to solve the puzzle (higher score means more efficient).  For brute force, you'll see a negative score in the thousands, whereas for AI, you'll likely see a score between 40 and 60.
+The printed `Performance Measure:` tells you how many steps the program took to solve the puzzle (the higher the score, the more efficient the program was). For the brute force option, it is likely you will see a negative score in the thousands, whereas for the AI option, you will probably see a score thats between 40 and 60.
 
-The second performance measurement used is the time taken to solve the program (you'll see a number in the thousands of milliseconds for brute force, but around 50ms for AI). 
+The second thing displayed `Time:` tells you how long the program has actually taken to solve the program (you should see a number in the thousands of milliseconds for the brute force option, and around 50ms for the AI option). 
