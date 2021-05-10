@@ -413,7 +413,7 @@ class Sudoku:
                             
                     copy = deepcopy(newBoard)  
                     self.boards_so_far.append(copy)    
-                    print "repeated boards = " + str(repeated_count)     
+                    print "Repeated boards = " + str(repeated_count)     
                     
                     if self.solveAlt(newBoard):
                         return True
@@ -425,7 +425,7 @@ Test
 """
 s = Sudoku() #Instantiate Sudoku, read the file input_sudoku_puzzle
 
-print "Welcome to CS156 Sudoku Solver"
+print "Welcome to The Sudoku Solver"
 print ""
 
 if present_mode: 
@@ -437,7 +437,7 @@ s.print_table_with_possibilities(s.sudoku_table)
 
 
 if present_mode: 
-    raw_input("Press <ENTER> when you want to start the puzzle")
+    raw_input("Press <ENTER> when you want to start solving the puzzle")
     start = time.time()    
     s.solveAlt(s.sudoku_table)
 
@@ -446,16 +446,3 @@ end = time.time()
 
 #Show the elapsed time
 print "Time: "  + str((end - start) * 1000) + " milliseconds"
-
-## test place cell in board, does not affect sudoku_table at first call
-#new_board = s.place_cell_in_board(5,0,1,s.sudoku_table)
-#s.print_table()
-#s.print_table_with_possibilities()
-#
-## change reference, should affect sudoku_table
-#s.sudoku_table = new_board
-#s.print_table()
-#s.print_table_with_possibilities()
-#
-## test get_cell_with_num_poss
-#print s.get_cells_with_allowed_num_poss(7,new_board)
