@@ -37,10 +37,8 @@ See more examples of this in [formatted_soduku_puzzle.txt](formatted_soduku_puzz
 To run this project you will need a Python 2.x interpreter. 
 Make sure the grid you want is entered in `input_sudoku_puzzle.txt` in the same format as mentioned and demonstrated above and then run the code.
 
-In order to run the code you must type this command into your command line interface/terrminal: 
+In order to run this code you must first download python onto your code editor of choice. I would recommend running this in the code editor Visual Studio Code (VSCode) as this comes with an integrated terminal that you can use to run the software, and it is easier to see the code at the same time as running it. But equally if there are other code editors you feel more comfortable with then feel free to use them. Then you type this command into your command line interface/terrminal: 
 `python2 SudokuAILoops.py`
-
-I would recomend running this in the code editor Visual Studio Code (VSCode) as this comes with an integrated terminal that you can use to run the software, and it is easier to see the code at the same time as running it. But equally if there are other code editors you feel more comfortable with then feel free to use them.
 
 At first the program will prompt you to hit `ENTER` in order to see a preview of the puzzle, it will then ask you to hit `ENTER` again when you want to start the program.
 
